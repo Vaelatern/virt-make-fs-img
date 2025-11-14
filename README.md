@@ -11,7 +11,7 @@ VM, since those VMs don't normally come with 9p support.
 mkdir input output
 touch input/this-file-should-be-accessible
 touch input/and-this-file-too
-docker run -v ./input:/input -v ./output:/output ghcr.io/Vaelatern/virt-make-fs-img@latest
+docker run -v ./input:/input -v ./output:/output ghcr.io/vaelatern/virt-make-fs-img:master
 ```
 
 ## Quickstart:
